@@ -241,10 +241,16 @@
         .benefit-2 .right .grid-animation .slide {
             position: absolute;
             top: 0;
-            left: 0;
-            width: 100%;
+            right: 0;
+            width: 75%;
+            margin: auto;
             height: 100%;
             overflow: visible;
+        }
+        @media (max-width: 700px){
+            .benefit-2 .right .grid-animation .slide{
+                width: 100%;
+            }
         }
 
         .benefit-2 .right .grid-animation .slide .row {
@@ -680,7 +686,7 @@
                     </div>
                     <div class="right">
                         <div class="grid-animation">
-                            <div class="slide l0">
+                            <div class="slide l0 active">
                                 <div class="row top">
                                     <div class="frame img-tl">
                                         <div class="image"
@@ -770,7 +776,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="slide l3 active">
+                            <div class="slide l3 ">
                                 <div class="row top">
                                     <div class="frame img-tl">
                                         <div class="image"
